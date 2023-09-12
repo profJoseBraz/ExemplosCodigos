@@ -8,9 +8,10 @@ package com.mycompany.exemplosVetores;
  *
  * @author 10156
  */
-public class ExemploVetor1 {
+public class ExemploVetorSoma {
     public static void main(String args[]){
         int[] numeros = new int[5];
+        int soma = 0;
         
         numeros[0] = 1; //Atribuição de valor à primeira posição;
         numeros[1] = 15; //Atribuição de valor à segunda posição;
@@ -19,7 +20,9 @@ public class ExemploVetor1 {
         numeros[4] = 123; //Atribuição de valor à quinta posição;
     
         for(int i = 0; i < numeros.length; i++){
-            System.out.println("O valor na posição " + i + " é: " + numeros[i]);
+            soma = soma + numeros[i];
         }
+        
+        System.out.println("Resultado da soma: " + soma);
     }
 }

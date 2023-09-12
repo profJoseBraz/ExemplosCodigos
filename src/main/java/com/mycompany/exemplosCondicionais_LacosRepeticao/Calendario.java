@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  * @author jose_
  */
-public class Exercicio14 {
+public class Calendario {
     //Número de dias de um mês em um determinado ano (incompleto)
     public static void main(String args[]){
         Scanner scanner = new Scanner(System.in);

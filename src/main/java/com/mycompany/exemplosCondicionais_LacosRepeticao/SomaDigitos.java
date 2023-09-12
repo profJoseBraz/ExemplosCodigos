@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  * @author jose_
  */
-public class Exercicio15 {
+public class SomaDigitos {
     //Soma dos dígitos de um número
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

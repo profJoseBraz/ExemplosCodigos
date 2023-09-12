@@ -8,23 +8,24 @@ import java.util.Scanner;
 
 /**
  *
- * @author 10156
+ * @author jose_
  */
-public class Exercicio11 {
-    //Cálculo de IMC
+public class VerificacaoNumeroParOuImpar {
+    //Verificação se número é par ou ímpar
     public static void main(String args[]){
         Scanner scanner = new Scanner(System.in);
         
-        float peso, altura, imc;
+        int num, modulo;
         
-        System.out.println("Informe seu peso: ");
-        peso = scanner.nextFloat();
+        System.out.println("Informe um número: ");
+        num = scanner.nextInt();
         
-        System.out.println("Informe sua altura: ");
-        altura = scanner.nextFloat();
+        modulo = num % 2;
         
-        imc = (float) (peso / Math.pow(altura, 2));
-       
-        System.out.println("IMC: " + imc);
+        if(modulo == 0){
+            System.out.println("O número " + num + " é par.");
+        }else{
+            System.out.println("O número " + num + " é ímpar.");
+        }
     }
 }

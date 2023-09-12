@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  * @author jose_
  */
-public class Exercicio4 {
+public class CalculadoraQuatroOperacoes {
     //Calculadora das 4 operações
     public static void main(String[] args) {
         int opcao;

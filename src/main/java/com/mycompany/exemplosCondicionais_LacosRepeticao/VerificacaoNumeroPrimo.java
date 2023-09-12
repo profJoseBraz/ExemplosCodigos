@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  * @author 10156
  */
-public class Exercicio9 {
+public class VerificacaoNumeroPrimo {
     //Verificação de número primo
     public static void main(String args[]){
         Scanner scanner = new Scanner(System.in);

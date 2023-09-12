@@ -10,19 +10,21 @@ import java.util.Scanner;
  *
  * @author jose_
  */
-public class Exercicio6 {
-    //Gerador de tabuada
-    public static void main(String[] args) {
-        int numTabuada, mult;
-        
+public class ContagemRegressiva {
+    //Contagem inversa
+    public static void main(String args[]){
         Scanner scanner = new Scanner(System.in);
         
-        System.out.println("Insira o número da tabuada que deseja: ");
-        numTabuada = scanner.nextInt();
+        int valor;
         
-        for (int i = 1; i <= 10; i++) {
-            mult = numTabuada * i;
-            System.out.println(numTabuada + " x " + i + " = " + mult);
+        System.out.println("Insira o valor máximo: ");
+        valor = scanner.nextInt();
+        
+        while(valor >= 0){
+            System.out.println(valor);
+            valor--;
         }
+        
+        System.out.println("Processo finalizado!");
     }
 }

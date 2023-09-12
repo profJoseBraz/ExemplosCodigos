@@ -11,7 +11,9 @@ import java.util.Scanner;
  *
  * @author jose_
  */
-public class Exercicio10 {
+public class Fibonacci2 {
+    //Atenção: foi utilizado um tipo de variável que eu não expliquei: BigInteger.
+    //Não se preocupem com este tipo.
     public static void main(String arggs[]){
         Scanner scanner = new Scanner(System.in);
         

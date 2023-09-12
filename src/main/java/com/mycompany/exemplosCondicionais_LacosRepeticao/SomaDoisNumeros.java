@@ -1,7 +1,7 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
+
 package com.mycompany.exemplosCondicionais_LacosRepeticao;
 
 import java.util.Scanner;
@@ -10,10 +10,10 @@ import java.util.Scanner;
  *
  * @author jose_
  */
-public class Exercicio2 {
-    //Média de três números
+public class SomaDoisNumeros {
+    //Soma de dois números
     public static void main(String[] args) {
-        float num1, num2, num3, media;
+        int num1, num2, soma;
         
         Scanner scanner = new Scanner(System.in);
         
@@ -23,11 +23,8 @@ public class Exercicio2 {
         System.out.println("Informe o segundo número: ");
         num2 = scanner.nextInt();
         
-        System.out.println("Informe o terceiro número: ");
-        num3 = scanner.nextInt();
+        soma = num1 + num2;
         
-        media = (num1 + num2 + num3) / 3;
-        
-        System.out.println("Média: " + media);
+        System.out.println("Resultado da soma: " + soma);
     }
 }

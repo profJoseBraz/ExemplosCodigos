@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  * @author jose_
  */
-public class Exercicio8 {
+public class CalculoPercentual {
     //Cálculo de percentual
     public static void main(String args[]){
          Scanner scanner = new Scanner(System.in);

@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  * @author jose_
  */
-public class Exercicio7 {
+public class CalculoFatorial {
     //Cálculo de fatorial
     public static void main(String args[]){
         Scanner scanner = new Scanner(System.in);

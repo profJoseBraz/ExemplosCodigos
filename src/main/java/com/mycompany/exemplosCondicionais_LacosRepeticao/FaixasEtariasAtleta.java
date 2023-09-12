@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  * @author 10156
  */
-public class Exercicio16 {
+public class FaixasEtariasAtleta {
     public static void main(String args[]){
         Scanner scanner = new Scanner(System.in);
         

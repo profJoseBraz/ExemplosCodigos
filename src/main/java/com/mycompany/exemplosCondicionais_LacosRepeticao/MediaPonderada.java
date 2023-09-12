@@ -22,8 +22,8 @@ public class MediaPonderada {
         System.out.println("Informe o segundo valor: ");
         num2 = scanner.nextFloat();
         
-        peso1 = 5;
-        peso2 = 2;
+        peso1 = 1;
+        peso2 = 1;
         
         resultado = ((num1 * peso1) + (num2 * peso2)) / (peso1 + peso2);
         

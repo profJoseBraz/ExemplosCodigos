@@ -15,18 +15,25 @@ public class Exercicio9 {
     public static void main(String args[]){
         Scanner scanner = new Scanner(System.in);
         
-        int num;
+        int num, limite;
+  
+        System.out.println("Informe um limite de verificação: ");
+        limite = scanner.nextInt();
         
         System.out.println("Informe um número: ");
         num = scanner.nextInt();
-        
-        for(int i = 2; i <= Math.sqrt(num); i++){
-            if(num % i == 0){
-                System.out.println("O número " + num + " NÃO é primo.");
-                System.exit(0);
+       
+        if(num <= limite){
+            for(int i = 2; i <= Math.sqrt(num); i++){
+                if(num % i == 0){
+                    System.out.println("O número " + num + " NÃO é primo.");
+                    System.exit(0);
+                }
             }
+            
+            System.out.println("O número " + num + " é primo.");
+        }else{
+            System.out.println("O número informado está fora dos limites de checagem!");
         }
-        
-        System.out.println("O número " + num + " é primo.");
     }
 }

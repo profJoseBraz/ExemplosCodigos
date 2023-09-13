@@ -9,24 +9,34 @@ package OrientacaoAObjetosCalculadora;
  * @author 10156
  */
 public class CalculadoraComum {
-    public float somar(float a, float b){
-        return a + b;
+    private float resultado;
+
+    public float getResultado() {
+        return resultado;
+    }
+
+    public void setResultado(float resultado) {
+        this.resultado = resultado;
     }
     
-    public float subtrair(float a, float b){
-        return a - b;
+    public void somar(float a, float b){
+        setResultado(a + b);
     }
     
-    public float multiplicar(float a, float b){
-        return a * b;
+    public void subtrair(float a, float b){
+        setResultado(a - b);
     }
     
-    public float dividir(float a, float b){
+    public void multiplicar(float a, float b){
+        setResultado(a * b);
+    }
+    
+    public void dividir(float a, float b){
         if(b > 0){
-            return a / b;
+            setResultado(a / b);
         }else{
             System.err.println("Erro: divisão por zero!");
-            return Float.NaN;
+            setResultado(Float.NaN);
         }
     }
 }

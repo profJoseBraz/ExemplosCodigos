@@ -13,6 +13,7 @@ public class ProgramaPrincipal {
         CalculadoraComum calculadoraComum = new CalculadoraComum();
         CalculadoraCientifica calculadoraCientifica = new CalculadoraCientifica();
         
-        System.out.println(calculadoraCientifica.somar(10, 10));
+        calculadoraCientifica.subtrair(10, 3);
+        System.out.println(calculadoraCientifica.getResultado());
     }
 }

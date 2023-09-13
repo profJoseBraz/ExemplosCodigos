@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package OrientacaoAObjetos;
+package OrientacaoAObjetosCalculadora;
 
 /**
  *
@@ -11,8 +11,8 @@ package OrientacaoAObjetos;
 public class ProgramaPrincipal {
     public static void main(String args[]){
         CalculadoraComum calculadoraComum = new CalculadoraComum();
-        CalculadoraMedia calculadoraMedia = new CalculadoraMedia();
+        CalculadoraCientifica calculadoraCientifica = new CalculadoraCientifica();
         
-        System.out.println(calculadoraMedia.mediaPonderada(10, 10, 1, 1));
+        System.out.println(calculadoraCientifica.somar(10, 10));
     }
 }

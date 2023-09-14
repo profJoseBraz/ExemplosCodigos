@@ -63,7 +63,7 @@ public class SistemaVendas_2_0 {
         int opcaoProduto = new Scanner(System.in).nextInt();
         
         if(opcaoProduto == 1){
-            produtos.add(VisaoVideoGame.menuCadastroVideoGame());
+            produtos.add(VisaoVideoGame.menuCadastro());
         }else if(opcaoProduto == 2){
 //            produtos.add(VisaoComputador.menuCadastro())
         }

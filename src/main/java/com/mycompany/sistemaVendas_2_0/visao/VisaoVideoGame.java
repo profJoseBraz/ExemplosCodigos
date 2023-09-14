@@ -12,7 +12,7 @@ import java.util.Scanner;
  * @author 10156
  */
 public class VisaoVideoGame {
-    public static VideoGame menuCadastroVideoGame(){
+    public static VideoGame menuCadastro(){
         VideoGame videoGame = new VideoGame();
         
         System.out.println("Nome: ");

@@ -35,7 +35,7 @@ public class Computador extends Produto{
     public String toString() {
         return  "Nome: " + super.getNome() + 
                 " | Preço: " + super.getPreco() + 
-                " | Plataforma: " + this.getMemoriaRam() + 
+                " | Quantidade de memória Ram: " + this.getMemoriaRam() + 
                 " | Processador: " + this.getProcessador();
     }
 }

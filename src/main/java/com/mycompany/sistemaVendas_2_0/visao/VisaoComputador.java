@@ -16,6 +16,7 @@ public class VisaoComputador {
     public static Computador menuCadastro(){
         Computador computador = new Computador();
         
+        System.out.println("CADASTRO DE COMPUTADOR=========================");
         System.out.println("Nome: ");
         computador.setNome(new Scanner(System.in).nextLine());
         System.out.println("Preço: ");
@@ -23,8 +24,8 @@ public class VisaoComputador {
         System.out.println("Quantidade de memória RAM: ");
         computador.setMemoriaRam(new Scanner(System.in).nextDouble());
         System.out.println("Processador: ");
-        computador.setMemoriaRam(new Scanner(System.in).nextDouble());
-        System.out.println("=====================================");
+        computador.setProcessador(new Scanner(System.in).nextLine());
+        System.out.println("===============================================");
         
         return computador;
     }

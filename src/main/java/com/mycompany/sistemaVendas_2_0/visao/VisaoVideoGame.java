@@ -15,13 +15,14 @@ public class VisaoVideoGame {
     public static VideoGame menuCadastro(){
         VideoGame videoGame = new VideoGame();
         
+        System.out.println("CADASTRO DE VIDEO GAME=========================");
         System.out.println("Nome: ");
         videoGame.setNome(new Scanner(System.in).nextLine());
         System.out.println("Preço: ");
         videoGame.setPreco(new Scanner(System.in).nextDouble());
         System.out.println("Plataforma: ");
         videoGame.setPlataforma(new Scanner(System.in).nextLine());
-        System.out.println("=====================================");
+        System.out.println("===============================================");
         
         return videoGame;
     }
